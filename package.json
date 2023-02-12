@@ -2,11 +2,11 @@
   "name": "bossabox-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "jest",
     "build": "npx tsc",
-    "start": "npx nodemon dist/server.ts"
+    "start": "npm run build && nodemon -L src/server.ts"
   },
   "repository": {
     "type": "git",
